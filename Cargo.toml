@@ -1,0 +1,11 @@
+[package]
+authors = ["Maciej Goszczycki <mgoszcz2@gmail.com>"]
+name = "objc_rust"
+version = "0.1.0"
+
+[dependencies]
+objc = "0.2.1"
+
+[features]
+link = []
+object = []
