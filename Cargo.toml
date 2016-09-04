@@ -5,7 +5,3 @@ version = "0.1.0"
 
 [dependencies]
 objc = "0.2.1"
-
-[features]
-link = []
-object = []
