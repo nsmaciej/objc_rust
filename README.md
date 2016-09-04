@@ -1,3 +1,3 @@
 # Objc Rust
 
-Build by running build.sh  
+Simply run using `cargo run`
