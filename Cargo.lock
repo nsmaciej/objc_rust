@@ -2,8 +2,14 @@
 name = "objc_rust"
 version = "0.1.0"
 dependencies = [
+ "gcc 0.3.35 (registry+https://github.com/rust-lang/crates.io-index)",
  "objc 0.2.1 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
+
+[[package]]
+name = "gcc"
+version = "0.3.35"
+source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
 name = "libc"
@@ -27,6 +33,7 @@ dependencies = [
 ]
 
 [metadata]
+"checksum gcc 0.3.35 (registry+https://github.com/rust-lang/crates.io-index)" = "91ecd03771effb0c968fd6950b37e89476a578aaf1c70297d8e92b6516ec3312"
 "checksum libc 0.2.15 (registry+https://github.com/rust-lang/crates.io-index)" = "23e3757828fa702a20072c37ff47938e9dd331b92fac6e223d26d4b7a55f7ee2"
 "checksum malloc_buf 0.0.6 (registry+https://github.com/rust-lang/crates.io-index)" = "62bb907fe88d54d8d9ce32a3cceab4218ed2f6b7d35617cafe9adf84e43919cb"
 "checksum objc 0.2.1 (registry+https://github.com/rust-lang/crates.io-index)" = "7c9311aa5acd7bee14476afa0f0557f564e9d0d61218a8b833d9b1f871fa5fba"
